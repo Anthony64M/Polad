@@ -1,0 +1,97 @@
+.login{
+    background-color: #001E36;
+}
+.cards-default {
+    background-color: #001E36;
+    border: 1px solid 
+  #dfe0eb;
+    border-radius: 8px;
+    justify-content: center;
+    height: 484px;
+    left: 450px;
+    position: fixed;
+    top: 50px;
+    width: 400px;
+}
+
+button {
+    width: 200px;
+    margin-left: 100px;
+    color: 
+    #001E36;
+  
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+  
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+  
+* {
+    box-sizing: border-box;
+}
+
+.google {
+    height: 48px;
+    left: 150px;
+    position: absolute;
+    top: 375px;
+    width: 48px;
+}
+  
+.tweet {
+    height: 65px;
+    left: 200px;
+    position: absolute;
+    top: 368px;
+    width: 48px;
+}
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.polad-1 {
+    color: 
+  #a4a6b3;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-weight: 700;
+    margin-left: 50px;
+    letter-spacing: 0.40px;
+    opacity: 0.7;
+    position: fixed;
+    text-align: center;
+    top: 70px;
+    width: 316px;
+}
+
+.log-in-to-polad {
+    color: 
+  #47ACFF;
+    font-family: 'Praise', cursive;
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 700;
+    left: 32px;
+    letter-spacing: 0.30px;
+    position: absolute;
+    text-align: center;
+    top: 65px;
+    width: 316px;
+}
+  
+.form-group {
+    margin-top: 100px;
+    width: 350px;
+    min-height: 40px;
+    margin-left: 25px;
+}

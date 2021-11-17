@@ -1,0 +1,210 @@
+.landing {
+    align-items: flex-start;
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.overlap-group2 {
+    height: 130px;
+    width: 240px;
+}
+
+.overlap-group1 {
+    height: 1359px;
+    left: 0;
+    top: 0;
+    width: 2365px;
+}
+
+.rectangle-1 {
+    background-color: #0A0B0C;
+    left: 0;
+    position: fixed;
+    width: 350px;
+    top: -100px;
+}
+
+.unsplashk1xf2-d7j-w-us {
+    height: 800px;
+    left: 180px;
+    position: fixed;
+    top: 10px;
+    width: 610px;
+}
+
+.polad {
+    height: 1460px;
+    left: 30px;
+    position: relative;
+    top: -120px;
+    width: 170px;
+}
+
+.text-1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    left: 565px;
+    position: fixed;
+    letter-spacing: 0;
+    top: 140px;
+    min-height: 340px;
+    width: 1112px; 
+}
+.text-1 .ptserif-normal-white-120px {
+    color: #fff;
+    height: 800px;
+    left: 650px;
+    position: fixed;
+    top: 290px;
+    width: 610px;
+}
+.ptserif-normal120px {
+    color: #0A0B0C;
+    height: 800px;
+    left: 780px;
+    position: fixed;
+    top: 295px;
+    width: 610px;
+}
+.text-1 .ptserif-normal {
+    color: white;
+    top: 370px;
+    font-size: 60px;
+    left: 650px;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+.text-1 .ptserif-normal-120px {
+    color: #0A0B0C;
+    top: 370px;
+    font-size: 60px;
+    left: 790px;
+    position: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-2 {
+    color: transparent;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    position: fixed;
+    left: 650px;
+    letter-spacing: 0;
+    top: 350px;
+    width: 732px
+}
+
+.span0 {
+    color: white;
+    height: 900px;
+    left: 720px;
+    position: fixed;
+    top: 450px;
+    width: 610px;
+
+}
+
+.span1 {
+    color: #0A0B0C;
+    height: 900px;
+    left: 780px;
+    position: fixed;
+    top: 450px;
+    width: 610px;
+
+}
+
+.twitter {
+    height: 50px;
+    left: 190px;
+    position: fixed;
+    top: 870px;
+    width: 50px;
+}
+
+.git-hub {
+    height: 50px;
+    left: 250px;
+    position: fixed;
+    top: 870px;
+    width: 50px;
+}
+
+.navs {
+    align-items: flex-end;
+    display: flex;
+    height: 60px;
+    position: fixed;
+    left: 1200px;
+    top: -10px;
+    width: 80px;
+}
+
+.overlap-group {
+    height: 42px;
+    width: 71px;
+}
+
+.vector {
+    height: 11px;
+    left: 0;
+    top: 10px;
+    width: 71px;
+}
+
+.vector-1 {
+    height: 11px;
+    left: 0;
+    top: 20px;
+    width: 71px;
+}
+
+.vector-2 {
+    height: 11px;
+    left: 0;
+    top: 0;
+    width: 71px;
+}
+
+.vector-3 {
+    height: 11px;
+    left: 0;
+    top: 30px;
+    width: 71px;
+}
+
+.button {
+    cursor: pointer;
+    height: 80px;
+    left: 790px;
+    position: fixed;
+    top: 540px;
+    transition: all 0.7s ease;
+    width: 395px;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+}

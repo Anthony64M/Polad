@@ -1,0 +1,47 @@
+.cards-default {
+    color: #fff;
+    background-color: whitesmoke;
+    border: 1px solid 
+  #dfe0eb;
+    border-radius: 8px;
+    justify-content: center;
+    height: 484px;
+    left: 450px;
+    position: fixed;
+    top: 50px;
+    width: 400px;
+}
+.form-group {
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    width: 200px;
+    margin-left: 100px;
+    background-color: #0d47a1;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100%;
+}
+  
+.container-center-horizontal > * {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+  
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+  
+* {
+    box-sizing: border-box;
+}
