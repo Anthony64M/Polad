@@ -3,6 +3,7 @@ import './Dashboard.css';
 import * as GrIcons from 'react-icons/gr';
 import * as SiIcons from 'react-icons/si';
 import * as MdIcons from 'react-icons/md';
+import { Link } from "react-router-dom";
 import Chart from './chart/Chart.js';
 
 const Dashboard = () => {
@@ -38,7 +39,7 @@ const Dashboard = () => {
                   </li>
                   <li className="sidebarListItem mt-5">
                     <MdIcons.MdSchedule className="sidebarIcon" />
-                    Scheduler
+                    <Link to="/scheduler">Scheduler</Link>
                   </li>
                   <li className="sidebarListItem mt-5">
                     <MdIcons.MdSettings className="sidebarIcon" />
