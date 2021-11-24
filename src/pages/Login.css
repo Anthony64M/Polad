@@ -43,7 +43,7 @@ button {
     height: 48px;
     left: 150px;
     position: absolute;
-    top: 375px;
+    top: 395px;
     width: 48px;
 }
   
@@ -51,7 +51,7 @@ button {
     height: 65px;
     left: 200px;
     position: absolute;
-    top: 368px;
+    top: 388px;
     width: 48px;
 }
   
@@ -89,9 +89,10 @@ button {
     width: 316px;
 }
   
-.form-group {
+.form-group {  
     margin-top: 100px;
     width: 350px;
     min-height: 40px;
     margin-left: 25px;
+    top: 150px;
 }
