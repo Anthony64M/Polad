@@ -33,7 +33,7 @@ const Register = () => {
     }
 
     if (navigate) {
-        return <Navigate to="/dashboard" />;
+        return <Navigate to="/login" />;
     }
     
     return (

@@ -55,7 +55,7 @@ const Login = () => {
                          </div>
                          
 
-                         <button type="button" className="btn btn-primary btn-block mt-5">Login</button>
+                         <button type="submit" className="btn btn-primary btn-block mt-5">Login</button>
                          <img className="google" src={google} alt="" />
                          <img className="tweet" src={tweet} alt="" />
                     </form>
