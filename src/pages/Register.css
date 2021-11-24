@@ -5,14 +5,14 @@
   #dfe0eb;
     border-radius: 8px;
     justify-content: center;
-    height: 484px;
+    height: 500px;
     left: 450px;
     position: fixed;
     top: 50px;
     width: 400px;
 }
 .form-group {
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     color: white;
 }
 
@@ -33,6 +33,7 @@ button {
     justify-content: center;
     pointer-events: none;
     width: 100%;
+    
 }
   
 .container-center-horizontal > * {
